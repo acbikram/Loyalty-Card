@@ -104,6 +104,9 @@ dependencies {
     // --- Core / lifecycle / activity ---
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
+    // Material Components (XML) — provides the Theme.Material3.* parent used by
+    // themes.xml. Compose's material3 artifact does not ship XML themes.
+    implementation("com.google.android.material:material:1.12.0")
     implementation(libs.androidx.core.splashscreen)
     implementation(libs.bundles.lifecycle)
     implementation(libs.androidx.activity.compose)
