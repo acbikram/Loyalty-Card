@@ -23,6 +23,7 @@ import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
+import kotlinx.coroutines.flow.stateIn
 
 /** Local UI state layered over the persisted [SecurityConfig]. */
 data class SecuritySettingsUiState(

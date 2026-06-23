@@ -19,6 +19,7 @@ import androidx.compose.ui.semantics.contentDescription
 import com.universalwallet.loyalty.core.theme.Dimensions
 import com.universalwallet.loyalty.core.theme.IconSize
 import com.universalwallet.loyalty.core.theme.Spacing
+import androidx.compose.foundation.layout.heightIn
 
 /** A small section title used to group settings and content blocks. */
 @Composable
@@ -114,4 +115,4 @@ fun SwitchItem(
 
 /** Enforces the accessible minimum touch-target height. */
 private fun Modifier.heightInMin(): Modifier =
-    this.then(androidx.compose.foundation.layout.heightIn(min = Dimensions.minTouchTarget))
+    this.heightIn(min = Dimensions.minTouchTarget)

@@ -43,6 +43,7 @@ class InMemorySyncQueue @Inject constructor() : SyncQueue {
     override suspend fun enqueue(operation: SyncOperation) = mutex.withLock {
         operations.removeAll { it.cardId == operation.cardId && it.type == operation.type }
         operations.add(operation)
+        Unit
     }
 
     override suspend fun pending(): List<SyncOperation> = mutex.withLock { operations.toList() }

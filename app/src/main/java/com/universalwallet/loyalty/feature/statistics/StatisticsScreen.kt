@@ -36,6 +36,7 @@ import com.universalwallet.loyalty.core.theme.AppTheme
 import com.universalwallet.loyalty.core.theme.Spacing
 import com.universalwallet.loyalty.core.theme.WalletIcons
 import com.universalwallet.loyalty.domain.model.CardCategory
+import androidx.compose.foundation.lazy.items
 
 /** Stateful Statistics entry point. */
 @Composable

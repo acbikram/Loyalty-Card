@@ -29,6 +29,7 @@ import com.universalwallet.loyalty.core.theme.MotionDurations
 import com.universalwallet.loyalty.core.theme.Spacing
 import com.universalwallet.loyalty.core.theme.WalletIcons
 import kotlinx.coroutines.delay
+import androidx.compose.foundation.layout.padding
 
 /**
  * Animated launch screen. Plays a short logo reveal, then — once the onboarding

@@ -39,6 +39,7 @@ import com.universalwallet.loyalty.core.components.WalletButton
 import com.universalwallet.loyalty.core.theme.AppTheme
 import com.universalwallet.loyalty.core.theme.Spacing
 import kotlinx.coroutines.launch
+import androidx.compose.foundation.background
 
 /** A single onboarding page definition. */
 private data class OnboardingPage(
@@ -170,7 +171,7 @@ private fun PagerDots(count: Int, selected: Int, modifier: Modifier = Modifier) 
 }
 
 private fun Modifier.androidxBackground(color: androidx.compose.ui.graphics.Color): Modifier =
-    this.then(androidx.compose.foundation.background(color))
+    this.background(color)
 
 @Preview(showBackground = true)
 @Composable

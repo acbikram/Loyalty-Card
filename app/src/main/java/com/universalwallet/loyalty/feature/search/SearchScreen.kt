@@ -39,6 +39,7 @@ import com.universalwallet.loyalty.core.theme.AppTheme
 import com.universalwallet.loyalty.core.theme.Spacing
 import com.universalwallet.loyalty.core.theme.WalletIcons
 import com.universalwallet.loyalty.domain.model.CardCategory
+import androidx.compose.ui.text.withStyle
 
 /** Stateful Search entry point. */
 @Composable
@@ -192,7 +193,7 @@ private fun highlightMatches(
     if (index < 0) return androidx.compose.ui.text.AnnotatedString(text)
     return androidx.compose.ui.text.buildAnnotatedString {
         append(text.substring(0, index))
-        androidx.compose.ui.text.withStyle(
+        withStyle(
             androidx.compose.ui.text.SpanStyle(
                 color = color,
                 fontWeight = androidx.compose.ui.text.font.FontWeight.Bold,
