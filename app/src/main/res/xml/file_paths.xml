@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Temporary camera-capture files live in cache/images. -->
+    <cache-path name="capture_images" path="images/" />
+    <!-- Persisted card images live in files/card_images. -->
+    <files-path name="card_images" path="card_images/" />
+</paths>

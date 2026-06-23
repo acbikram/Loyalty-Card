@@ -1,0 +1,15 @@
+{
+  "storeId": "custom",
+  "storeName": "Custom Card",
+  "category": "GENERAL",
+  "country": [],
+  "keywords": ["custom", "other", "generic"],
+  "primaryColor": "#5B5F97",
+  "secondaryColor": "#474B79",
+  "darkColor": "#33365A",
+  "lightColor": "#EAEAF2",
+  "supportedBarcodeTypes": ["CODE128", "QR", "EAN13", "PDF417", "AZTEC"],
+  "cardTemplateId": "standard",
+  "logoAssetPath": null,
+  "isActive": true
+}

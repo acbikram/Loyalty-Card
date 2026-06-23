@@ -1,0 +1,6 @@
+# Treat Gradle wrapper scripts and jar as binary/text appropriately.
+*.jar binary
+gradlew text eol=lf
+*.bat text eol=crlf
+*.kt text eol=lf
+*.kts text eol=lf

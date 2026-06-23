@@ -1,0 +1,15 @@
+{
+  "storeId": "nesto",
+  "storeName": "Nesto Hypermarket",
+  "category": "SUPERMARKET",
+  "country": ["AE", "SA", "OM", "BH"],
+  "keywords": ["nesto", "hypermarket", "supermarket", "grocery", "نستو"],
+  "primaryColor": "#E2231A",
+  "secondaryColor": "#B71C15",
+  "darkColor": "#7F140F",
+  "lightColor": "#FCE8E7",
+  "supportedBarcodeTypes": ["CODE128", "EAN13"],
+  "cardTemplateId": "standard",
+  "logoAssetPath": null,
+  "isActive": true
+}

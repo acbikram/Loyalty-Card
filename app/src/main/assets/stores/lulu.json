@@ -1,0 +1,15 @@
+{
+  "storeId": "lulu",
+  "storeName": "Lulu Hypermarket",
+  "category": "SUPERMARKET",
+  "country": ["AE", "SA", "QA", "OM", "BH", "KW"],
+  "keywords": ["lulu", "hypermarket", "supermarket", "grocery", "لولو", "هايبر"],
+  "primaryColor": "#0F8A3C",
+  "secondaryColor": "#0B6E30",
+  "darkColor": "#0A4D24",
+  "lightColor": "#E6F4EA",
+  "supportedBarcodeTypes": ["CODE128", "EAN13", "QR"],
+  "cardTemplateId": "standard",
+  "logoAssetPath": null,
+  "isActive": true
+}

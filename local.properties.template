@@ -1,0 +1,8 @@
+## This is a TEMPLATE. Copy it to `local.properties` and fill in your values.
+## `local.properties` is machine-specific and MUST NOT be committed to Git.
+
+# Absolute path to your Android SDK installation.
+# Windows example: sdk.dir=C\:\\Users\\you\\AppData\\Local\\Android\\Sdk
+# macOS example:   sdk.dir=/Users/you/Library/Android/sdk
+# Linux example:   sdk.dir=/home/you/Android/Sdk
+sdk.dir=/path/to/your/Android/Sdk

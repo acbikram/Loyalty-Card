@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">محفظة الولاء</string>
+
+    <string name="widget_quick_scan_description">مسح بطاقة ولاء بسرعة</string>
+    <string name="widget_favorite_description">عرض بطاقة الولاء المفضلة لديك</string>
+
+    <!-- رسائل الخطأ (مرتبطة بـ AppError عبر ErrorHandler) -->
+    <string name="error_network_no_connection">لا يوجد اتصال بالإنترنت. يرجى المحاولة مرة أخرى.</string>
+    <string name="error_network_timeout">انتهت مهلة الطلب. يرجى المحاولة مرة أخرى.</string>
+    <string name="error_network_generic">حدث خطأ في الشبكة.</string>
+    <string name="error_not_found">تعذر العثور على العنصر.</string>
+    <string name="error_database_generic">حدث خطأ أثناء حفظ بياناتك.</string>
+    <string name="error_validation_generic">يرجى التحقق من المعلومات التي أدخلتها.</string>
+    <string name="error_security_unauthenticated">المصادقة مطلوبة للمتابعة.</string>
+    <string name="error_security_biometric">المصادقة البيومترية غير متاحة.</string>
+    <string name="error_security_generic">حدث خطأ أمني.</string>
+    <string name="error_plugin_generic">تعذر تحميل هذا المتجر.</string>
+    <string name="error_unknown">حدث خطأ غير متوقع.</string>
+</resources>

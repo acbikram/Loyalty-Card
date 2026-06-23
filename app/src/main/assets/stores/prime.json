@@ -1,0 +1,15 @@
+{
+  "storeId": "prime",
+  "storeName": "Prime Supermarket",
+  "category": "SUPERMARKET",
+  "country": ["AE"],
+  "keywords": ["prime", "supermarket", "grocery", "برايم"],
+  "primaryColor": "#F58220",
+  "secondaryColor": "#C76A18",
+  "darkColor": "#8F4C11",
+  "lightColor": "#FDEEDF",
+  "supportedBarcodeTypes": ["CODE128", "EAN13"],
+  "cardTemplateId": "standard",
+  "logoAssetPath": null,
+  "isActive": true
+}

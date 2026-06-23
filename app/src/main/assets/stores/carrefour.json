@@ -1,0 +1,15 @@
+{
+  "storeId": "carrefour",
+  "storeName": "Carrefour",
+  "category": "SUPERMARKET",
+  "country": ["AE", "SA", "QA", "OM", "BH", "KW", "JO", "EG"],
+  "keywords": ["carrefour", "hypermarket", "supermarket", "grocery", "كارفور"],
+  "primaryColor": "#004E9F",
+  "secondaryColor": "#003B79",
+  "darkColor": "#002851",
+  "lightColor": "#E5EEF6",
+  "supportedBarcodeTypes": ["EAN13", "QR", "CODE128"],
+  "cardTemplateId": "standard",
+  "logoAssetPath": null,
+  "isActive": true
+}

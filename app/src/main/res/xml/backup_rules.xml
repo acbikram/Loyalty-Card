@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Full-backup rules. Sensitive encrypted material and the local database are
+    excluded from cloud backups by default; a secure, opt-in backup mechanism
+    is introduced in a later phase.
+-->
+<full-backup-content>
+    <exclude domain="database" path="universal_loyalty_wallet.db" />
+    <exclude domain="sharedpref" path="secure_prefs.xml" />
+</full-backup-content>

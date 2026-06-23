@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Base platform theme used before Compose takes over rendering.
+        Material3 DayNight + NoActionBar so the activity is edge-to-edge ready
+        and the actual visual styling is driven by AppTheme (Compose).
+    -->
+    <style name="Theme.UniversalLoyaltyWallet" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>

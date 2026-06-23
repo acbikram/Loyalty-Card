@@ -1,0 +1,67 @@
+# Detekt configuration for Universal Loyalty Wallet.
+# Overlays the default rule set (buildUponDefaultConfig = true), so only the
+# deltas relevant to this Compose/Hilt codebase are declared here. Formatting is
+# delegated to ktlint, so detekt's formatting rules are disabled to avoid overlap.
+
+build:
+  maxIssues: 0
+  excludeCorrectable: false
+
+config:
+  validation: true
+  warningsAsErrors: false
+
+complexity:
+  active: true
+  LongMethod:
+    threshold: 80
+  LongParameterList:
+    functionThreshold: 8
+    constructorThreshold: 12   # Hilt constructors legitimately have many deps
+    ignoreDefaultParameters: true
+  TooManyFunctions:
+    thresholdInClasses: 20
+    thresholdInFiles: 30
+    thresholdInInterfaces: 20
+  CyclomaticComplexMethod:
+    threshold: 20
+  NestedBlockDepth:
+    threshold: 5
+
+style:
+  active: true
+  MagicNumber:
+    active: false              # UI dp/sp constants make this rule noisy
+  ReturnCount:
+    max: 5
+  MaxLineLength:
+    maxLineLength: 140
+  UnusedPrivateMember:
+    active: true
+  WildcardImport:
+    active: true
+  ForbiddenComment:
+    active: false              # TODO/FIXME are tracked elsewhere
+  UnnecessaryAbstractClass:
+    active: false              # Hilt @Module abstract classes are intentional
+
+naming:
+  active: true
+  FunctionNaming:
+    functionPattern: '[a-z][a-zA-Z0-9]*'
+    ignoreAnnotated: ['Composable']   # @Composable functions are PascalCase
+  TopLevelPropertyNaming:
+    constantPattern: '[A-Z][A-Za-z0-9]*|[A-Z][_A-Z0-9]*'
+
+formatting:
+  active: false                # ktlint owns formatting
+
+comments:
+  active: false
+
+coroutines:
+  active: true
+  GlobalCoroutineUsage:
+    active: true
+  SuspendFunWithFlowReturnType:
+    active: true
